@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rebeccapurple\;
+    color: teal;
+}
+h1 {
+    color: aquamarine;
+}
+a {
+    color: blueviolet;
+}
+a:hover {
+    color: powderblue;
+}
+ul>li {
+    font-weight: bold;
+}
+h1+p {
+    background-color: palegreen;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover {
+    color: rgb(32, 83, 178);
+}
+ul li:nth-child(3) {
+    background-color: salmon;
+}
+p:not(:first-of-type) {
+    text-decoration: solid;
+}
+p::first-letter {
+    font-size: 200%;
+    color: slateblue;
+}
